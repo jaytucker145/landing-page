@@ -1,5 +1,15 @@
-header, .section-one {
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+header {
     background-color: #1F2937;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -8,18 +18,34 @@ h1 {
     color: #F9FAF8;
 }
 
-.secondary-text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 a {
     color: #E5E7EB;
     text-decoration: none;
 }
 
-button, .call-to-action {
+button {
     background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.section-one {
+    background-color: #1F2937;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.section-two {
+
 }
 
 .section-three {
@@ -30,4 +56,21 @@ button, .call-to-action {
     font-size: 36px;
     font-style: light-italic;
     color: #1F2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.sign-up-two {
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
