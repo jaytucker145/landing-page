@@ -1,0 +1,33 @@
+header, .section-one {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+button, .call-to-action {
+    background-color: #3882F6;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1F2937;
+}
