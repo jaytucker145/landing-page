@@ -53,6 +53,11 @@ button {
     flex: 0 1 30%;
 }
 
+.img-one {
+    width: 500px;
+    margin: 20px;
+}
+
 .section-one-image {
     flex: 0 1 30%;
 }
