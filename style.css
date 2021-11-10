@@ -67,7 +67,6 @@ button {
     flex: 0 1 30%;
 }
 
-
 .section-two {
     display: flex;
     flex-direction: column;
@@ -93,9 +92,16 @@ button {
     margin: 0px 20px;
 }
 
+.subtext {
+    text-align: center;
+}
 
 .section-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 200px;
+    align-items: flex-end;
 }
 
 .quote {
@@ -104,8 +110,15 @@ button {
     color: #1F2937;
 }
 
+.quote-source {
+    font-weight: bold;
+}
+
 .call-to-action {
     background-color: #3882F6;
+    border-radius: 10px;
+    max-width: 800px;
+    padding: 20px;
 }
 
 .sign-up-two {
